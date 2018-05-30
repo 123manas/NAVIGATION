@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@mipmap/pic3"
+    >
+
+    <EditText
+        android:id="@+id/fnameEt"
+        android:hint="enter first name "
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/lnameEt"
+        android:hint="enter last name "
+        android:inputType="text"
+        android:layout_below="@+id/fnameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/dobEt"
+        android:hint="enter your D.O.B"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:layout_below="@+id/lnameEt"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/gmailEt"
+        android:hint="enter your gmail"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/dobEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/passwordEt"
+        android:hint="enter your password "
+        android:inputType="textPassword"
+        android:layout_below="@+id/gmailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/cnfpasswordEt"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/signupBt"
+        android:background="#12ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="SIGNUP"/>
+
+</RelativeLayout>
